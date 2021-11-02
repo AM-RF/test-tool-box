@@ -59,7 +59,7 @@ class App extends Component{
                                         </Col>
                                         {this.state.text.text ? 
                                         <Col sm={8} className="my-1">
-                                            <h5>{this.state.text.palindrome ? 'Es palindrome' : 'No es palindrome'}</h5>
+                                            <h5>{this.state.text.palindrome ? 'Palindrome' : 'Not Palindrome'}</h5>
                                         </Col> : ''}
                                     </Row>
                                 </Card.Body>
