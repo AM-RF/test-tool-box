@@ -5,6 +5,8 @@ const app = require('../index')
 chai.should()
 chai.use(chaiHttp)
 
+// Test con supertest
+
 // eslint-disable-next-line no-undef
 describe('POST /test supertest', () => {
   // eslint-disable-next-line no-undef
@@ -30,6 +32,8 @@ describe('POST /test supertest', () => {
       })
   })
 })
+
+// Test con chai
 
 // eslint-disable-next-line no-undef
 describe('POST /test chai', function () {

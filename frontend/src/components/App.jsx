@@ -14,6 +14,7 @@ class App extends Component{
         this.setState({value: event.target.value });
     }
     
+    // Envia el texto a invertir
     sendText = () => {
         const requestInit = {
             method: 'POST',

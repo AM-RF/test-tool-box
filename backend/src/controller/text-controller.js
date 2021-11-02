@@ -13,6 +13,7 @@ function text (req, res) {
   }
 }
 
+// verifica si es palindrome
 function isPalindrome (string, text) {
   if (string === text) {
     return true
